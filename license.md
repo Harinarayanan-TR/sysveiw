@@ -23,5 +23,5 @@ Name: Harinarayanan TR
                                                                                                    legal license agreement. drafted on:
                                                                                                                              25-04-2026
                                                                                                                              
- AMENDMANTS ONLY BY OWNER UNLES SPERMITTED EXLUSIVELY
+ AMENDMANTS ONLY BY OWNER UNLESS PERMITTED EXLUSIVELY
  (and pls dont spam email)
