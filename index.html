@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body style="background:black;color:lime;font-family:monospace;">
+
+<div id="output"></div>
+<input id="input" autofocus style="width:100%;background:black;color:lime;border:none;outline:none;">
+
+<script>
+const { ipcRenderer } = require("electron");
+
+const input = document.getElementById("input");
+const output = document.getElementById("output");
+
+input.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") {
+    const cmd = input.value;
+    output.innerHTML += `<div>> ${cmd}</div>`;
+    ipcRenderer.send("command", cmd);
+    input.value = "";
+  }
+});
+
+ipcRenderer.on("output", (e, data) => {
+  output.innerHTML += `<pre>${data}</pre>`;
+  window.scrollTo(0, document.body.scrollHeight);
+});
+
+ipcRenderer.on("clear", () => {
+  output.innerHTML = "";
+});
+</script>
+
+</body>
+</html>
