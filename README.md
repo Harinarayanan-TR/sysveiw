@@ -1,9 +1,6 @@
 # sysveiw
 SysView is a cross-platform hybrid terminal and system utility built with Electron. It lets users run native OS commands, view system info, and use custom commands in a single interface. It offers both a Classic version without auto-updates and a modern version with OTA updates for flexibility.
 
-# SysView
-
-SysView is a cross-platform hybrid terminal and system utility built with Electron. It combines a command-line interface with system tools, allowing users to execute native OS commands, view system information, and use custom commands in one place.
 
 ---
 
