@@ -24,6 +24,7 @@ SysView is a cross-platform hybrid terminal and system utility built with Electr
 - Supports OTA (over-the-air) updates
 - Automatically receives new features and fixes
 
+AS OF 02-05-2026, OTA AND SUCH ONLINE FEATURES HAVE BEEN DELAYED. PLEASE REFER ISSUES FOR MORE INFORMATION.
 ---
 
 ## Installation
