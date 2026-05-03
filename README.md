@@ -1,5 +1,5 @@
-# sysveiw
-SysView is a cross-platform hybrid terminal and system utility built with Electron. It lets users run native OS commands, view system info, and use custom commands in a single interface. It offers both a Classic version without auto-updates and a modern version with OTA updates for flexibility.
+sysveiw
+SysView is a cross-platform hybrid terminal and system utility built with Electron. It lets users run native OS commands, view system info, and use custom commands in a single interface. Purticularly useful for developers, it offers a simple command syntax and expands productivity, capability and simplicity while maintaining performance and speed for all.
 
 
 ---
@@ -10,7 +10,11 @@ SysView is a cross-platform hybrid terminal and system utility built with Electr
 - Built-in commands (`help`, `sysinfo`, `clear`)
 - Simple and fast terminal-style interface
 - Cross-platform foundation (Windows, macOS, Linux)
-
+-custum commands inbuilt
+-run benchmarks and stress test to veiw your systems capabilities
+-low level system control
+-simple installation and inbuilt documentation and usage guides.
+-Pls note that features,syntax and performance may vary accross releases/versions. Download the latest version for best perfomance and enhaced usage.
 ---
 
 ## Versions
@@ -18,13 +22,26 @@ SysView is a cross-platform hybrid terminal and system utility built with Electr
 ### SysView Classic (v1.1.1)
 - No auto-updates
 - Lightweight and stable
-- Manual updates required
+- Custom commands
+- Basic and user freindly system
 
-### SysView (v1.1.2+)
-- Supports OTA (over-the-air) updates
-- Automatically receives new features and fixes
+### SysView (v1.1.2)
+- 20+ custom commands
+- CMD/powershell command routing
+- auto app diagnosis
+- auto error detection
+- Enhanced UI and interface
+- powerful yet simple syntax
+- Developer freindly
+- To veiw more features:type help on sysveiw v1.1.2
 
-AS OF 02-05-2026, OTA AND SUCH ONLINE FEATURES HAVE BEEN DELAYED. PLEASE REFER ISSUES FOR MORE INFORMATION.
+### SysView (v1.1.3+)
+PLANNED FOR OTA SUPPORT, AUTO BUG FIXES, LOW LEVEL SYSTEM PROGRAMMING, BIOS AND KERNAL INTERACTIONS AND MORE
+
+###SysView (v1.2.1)
+Planned cross platfrom support (macos/linux/windows) and direct CPU/RAM/BATTERY/DEVICE DRIVER health checks plus better benchmarks and more
+
+
 ---
 
 ## Installation
@@ -34,7 +51,7 @@ Download the installer from the Releases section and install manually.
 
 ### OTA Version (v1.1.2+)
 Install once, and updates will be delivered automatically.
-
+OTA WAS FIRST PLANNED FOR V1.1.2+ BUT DUE TO TECHNICAL AND SAFETY ISSUES, IT HAS BEEN DELAYED.
 ---
 
 ## Development
@@ -56,3 +73,4 @@ npm run build
 | sysinfo       | Show system information |
 | run <command> | Execute OS command      |
 | clear         | Clear terminal          |
+COMMANDS AND MORE WILL VARY FROM VERSION TO VERSION.
