@@ -1,0 +1,52 @@
+{
+  "name": "sysveiw",
+  "version": "1.1.2",
+  "description": "Advanced system terminal interface by Harinarayanan TR",
+  "main": "main.js",
+  "author": "Harinarayanan TR",
+  "license": "SEE LICENSE IN LICENSE.txt",
+
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "dist": "electron-builder --win"
+  },
+
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-builder": "^24.13.3"
+  },
+
+  "build": {
+    "appId": "com.sysveiw.app",
+    "productName": "Sysveiw",
+
+    "directories": {
+      "output": "dist"
+    },
+
+    "files": [
+      "*"
+    ],
+
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    },
+
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+
+      "installerIcon": "icon.ico",
+      "uninstallerIcon": "icon.ico",
+
+      "license": "LICENSE.txt",
+
+      "include": "installer.nsh"
+    }
+  }
+}

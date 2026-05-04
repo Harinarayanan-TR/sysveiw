@@ -1,0 +1,57 @@
+{
+  "name": "sysview",
+  "version": "1.1.2",
+  "description": "SysView Advanced Terminal",
+  "main": "main.js",
+  "author": "Harinarayanan TR",
+  "license": "CUSTOM",
+  "private": true,
+
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "dist": "electron-builder"
+  },
+
+  "dependencies": {
+    "electron-updater": "^6.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "chart.js": "^4.4.0",
+    "node-fetch": "^3.3.2"
+  },
+
+  "devDependencies": {
+    "electron": "^30.5.1",
+    "electron-builder": "^24.13.3"
+  },
+
+  "build": {
+    "appId": "com.sysview.app",
+    "productName": "SysView",
+
+    "directories": {
+      "output": "dist",
+      "buildResources": "assets"
+    },
+
+    "files": [
+      "**/*",
+      "!dist/**",
+      "!node_modules/.cache/**"
+    ],
+
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "Harinarayanan-TR",
+        "repo": "sysview"
+      }
+    ],
+
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico"
+    }
+  }
+}
