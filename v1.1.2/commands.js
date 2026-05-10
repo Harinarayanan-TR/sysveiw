@@ -165,8 +165,13 @@ module.exports = {
           }
           command = command.replace(/^"|"$/g, '');
           return new Promise((resolve) => {
-            exec(`cmd /c ${command}`, (err, stdout, stderr) => {
-              const result = err ? `Error: ${err.message}\n${stderr}` : stdout;
+            exec(command, { shell: '/bin/bash' }, (err, stdout, stderr) => {
+              let result = `Executed: ${command}\n`;
+              if (err) {
+                result += `Error: ${err.message}\n${stderr}`;
+              } else {
+                result += stdout;
+              }
               resolve(result);
             });
           });
@@ -183,13 +188,41 @@ module.exports = {
           }
           command = command.replace(/^"|"$/g, '');
           return new Promise((resolve) => {
-            exec(`powershell -Command "${command}"`, (err, stdout, stderr) => {
-              const result = err ? `Error: ${err.message}\n${stderr}` : stdout;
+            exec(command, { shell: '/bin/bash' }, (err, stdout, stderr) => {
+              let result = `Executed: ${command}\n`;
+              if (err) {
+                result += `Error: ${err.message}\n${stderr}`;
+              } else {
+                result += stdout;
+              }
               resolve(result);
             });
           });
         } catch (err) {
           console.error("Pwr command failed:", err.message);
+          return {error: err.message};
+        }
+      },
+
+      "naitive": async (command) => {
+        try {
+          if (!command) {
+            return {error: "Usage: naitive \"<command>\""};
+          }
+          command = command.replace(/^"|"$/g, '');
+          return new Promise((resolve) => {
+            exec(command, { shell: '/bin/bash' }, (err, stdout, stderr) => {
+              let result = `Executed: ${command}\n`;
+              if (err) {
+                result += `Error: ${err.message}\n${stderr}`;
+              } else {
+                result += stdout;
+              }
+              resolve(result);
+            });
+          });
+        } catch (err) {
+          console.error("Naitive command failed:", err.message);
           return {error: err.message};
         }
       },

@@ -7,11 +7,21 @@ const pipelines = require('./pipelines');
 let mainWindow;
 global.mainWindow = null;
 
+function parseCommandString(cmd) {
+  const tokens = [];
+  const regex = /[^\s"']+|"([^"\\]*(?:\\.[^"\\]*)*)"|'([^'\\]*(?:\\.[^'\\]*)*)'/g;
+  let match;
+  while ((match = regex.exec(cmd))) {
+    tokens.push(match[1] || match[2] || match[0]);
+  }
+  return tokens;
+}
+
 function createWindow() {
   mainWindow = new BrowserWindow({
     width: 1200,
     height: 800,
-    icon: path.join(__dirname, 'icon.ico'),
+    icon: path.join(__dirname, 'icon.png'),
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false
@@ -31,7 +41,7 @@ function createWindow() {
 // === IPC Command Hook ===
 ipcMain.on("run-command", async (event, cmd) => {
   try {
-    const [name, ...args] = cmd.split(" ");
+    const [name, ...args] = parseCommandString(cmd);
     if (commands.commands[name]) {
       const result = await commands.commands[name](...args);
       event.sender.send("command-result", result);

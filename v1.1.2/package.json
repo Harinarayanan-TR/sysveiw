@@ -8,9 +8,9 @@
 
   "scripts": {
     "start": "electron .",
-    "build": "electron-builder",
-    "dist": "electron-builder --win --x64",
-    "pack": "electron-builder --dir"
+    "build": "electron-builder --linux",
+    "dist": "electron-builder --linux --x64",
+    "pack": "electron-builder --dir --linux"
   },
 
   "build": {
@@ -33,38 +33,36 @@
         "from": "./",
         "to": "./",
         "filter": [
-          "license.txt",
-          "installer.nsh"
+          "license.txt"
         ]
       }
     ],
 
-    "win": {
-      "icon": "icon.ico",
+    "linux": {
+      "icon": "icon.png",
       "target": [
         {
-          "target": "nsis",
+          "target": "AppImage",
           "arch": ["x64"]
         }
-      ]
+      ],
+      "category": "System;Development;Utility;",
+      "executableName": "sysveiw",
+      "desktop": {
+        "Name": "Sysveiw",
+        "Comment": "Pro-Legacy CLI System Utility",
+        "Categories": "System;Development;Utility;",
+        "Terminal": false
+      }
     },
 
-    "nsis": {
-      "oneClick": false,
-      "perMachine": true,
-      "allowToChangeInstallationDirectory": true,
-      "license": "license.txt",
-      "include": "installer.nsh",
-      "createDesktopShortcut": true,
-      "createStartMenuShortcut": true,
-      "shortcutName": "Sysveiw-pro legacy"
+    "appImage": {
+      "autoUpdate": false
     }
   },
 
   "dependencies": {
-    "child_process": "1.0.2",
     "fs-extra": "^11.2.0",
-    "os": "^0.1.2",
     "systeminformation": "^5.31.5"
   },
 
