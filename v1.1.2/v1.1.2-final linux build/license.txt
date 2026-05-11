@@ -1,0 +1,29 @@
+The repository is protected by a custom license binding on every user/veiwer or editor directly or indirectly involved with this. The owner
+Harinarayanan TR has created a custom license to protect his and this repositories interest through a safe and secure agreement. The following are the terms upon which this license is agreed upon.
+
+1. This repository, any content within it or a snapshot of it cannot be used without a written consent from the owner of the repository. This includes all instituitions and individuals. Written consent is limited to formal documents, clear digital verification but is not bound to informal, unvoulantary or faked written consent.
+2. The owner has to publicaly acknowledge any transacions of license or agreements for term to be officially binding. Any violation of these terms will include strict legal ation and/or penalties found fit by the law and/or the owner of this reporitory.
+3. This license recognise the following github user with the account:"Harinarayanan-TR" as the sole owner of this repository. Any transaction of onwership must be made public within the repository and agreed upon and acknowledged by the current owner voulantarily. Any unlawful seizage of this repository will result in immediate legal action.
+4. The misuse or unlawful use of this repository is not the responsibility or liability of the owner but the sole committer who has done the act. Any such claim of misuse must be immediatly notified to legal authorities and/or the owner.
+5. All users are encouraged to share any security concerns or violation of privacy concerns to the owner immediatly within two days of the evidence or incident. Any claim that has failed to be notified within the deadline will be investigated upon but not responded to or accepted to. Please note that the owner is not compelled to investigate or acknowledge a failed claim (a claim that has not been  submitted within the deadline). The owner also reserves the right to deny any claim (due to uncertain evidence, or in any even of tampering or such) or block the user if any such need arises.
+6. The legal agreement that any claim or any such notice will be denied if the code has been tampered with or uncertainly used.
+7. All users are free to use (download and interact with) this repository unless thay plan on violaiting any of the license agreements or security policies or redistribute it.
+8. This license stringly condems any redistribution of this content without the owners notice and written agreement. Any redistribution will trigger severe legal action againt the committer and be reported to necessery instituitions.
+9. Modification of files locally is accepted as long as it is not redistrubted/heavily tapered with/updated in the cloud or any such kind of acts the owner deems unlawful.
+10. Please not that modification of files however denies the right of any claim (Security or such).
+11. The owner reserves the right to modify/rewrite/delete this security policy without acknowledgment and the new terms will be immediatly effective. Users are encouraged to raise questions about any of the olicies unless tsrictly restricted to the owner in the provided contact below.
+12. Impeachment or disregard of any of the terms/conditions or such will result in strict legal action and/or penalties.
+13. Sending unrelated or insecure messages or any restricted content or software of any kind to the contact given below is strictly restricted by this policy.
+
+
+The legal license document end with the note that all users have agreed to any and all of our policies by countinuing foreword with our repository with/without reading this security policy. Users are strictly prohibited from editing this legal document. Therefore, the owner hopes of full compliance with this license and a secure and safe coding future. 
+
+contact owner at: error40404.github@gmail.com
+Name: Harinarayanan TR
+                                                                                                   legal license agreement. drafted on:
+                                                                                                                             25-04-2026
+                                                                                                                             
+ AMENDMANTS ONLY BY OWNER UNLESS PERMITTED EXLUSIVELY
+ (and pls dont spam email)
+ IF YOU HAVE ANY BUG REPORTS, PLEASE CONTACT ME, ALONG WITH A SCREENSHOT AND SIMPLE DEFINITION IF POSSIBLE
+ THANK YOU

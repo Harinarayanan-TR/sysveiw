@@ -1,0 +1,74 @@
+{
+  "name": "sysveiw",
+  "version": "1.1.2",
+  "description": "Sysveiw Pro-Legacy CLI Utility",
+  "main": "main.js",
+  "author": "Harinarayanan-TR <error40404.github@gmail.com>",
+  "license": "Custom",
+
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --linux",
+    "dist": "electron-builder --linux --x64",
+    "pack": "electron-builder --dir --linux"
+  },
+
+  "build": {
+    "appId": "com.sysveiw.cli",
+    "productName": "Sysveiw v1.1.2",
+    "publish": null,
+
+    "directories": {
+      "output": "dist",
+      "buildResources": "."
+    },
+
+    "files": [
+      "**/*",
+      "!node_modules/.cache"
+    ],
+
+    "extraResources": [
+      {
+        "from": "./",
+        "to": "./",
+        "filter": [
+          "license.txt"
+        ]
+      }
+    ],
+
+    "linux": {
+      "icon": "icon.png",
+      "target": [
+        {
+          "target": "AppImage",
+          "arch": ["x64"]
+        }
+      ],
+      "category": "System;Development;Utility;",
+      "executableName": "sysveiw",
+      "desktop": {
+        "Name": "Sysveiw",
+        "Comment": "Pro-Legacy CLI System Utility",
+        "Categories": "System;Development;Utility;",
+        "Terminal": false
+      }
+    },
+
+    "appImage": {
+      "autoUpdate": false
+    }
+  },
+
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "systeminformation": "^5.31.5"
+  },
+
+  "devDependencies": {
+    "electron-builder": "^24.13.3",
+    "electron": "^29.0.0"
+   
+  }
+}
