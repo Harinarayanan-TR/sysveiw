@@ -1,3 +1,4 @@
+**LINUX VERSION OUT NOW!!!!**
 # SYSVEIW
 
 SysView is an advanced terminal interface for developers and tech enthusiats that support inbuilt custom commands and naitive commands with OTA and auto-diagnostics support. Also configured with extra dev tools that will make a developers job esy, the app comes with preconfigured benchmarks and health checks. The app will come with algorithms for checking OS and Hardware intergrity and dertimining which OS is the best to run in that psecifi hardware environment. The APP will be supported accross various platforms like MacOS, windows and Linux. It will also self diagnose and fix app bugs locally and support advanced admin priviligaed commands. The ultilmate aim, however, is to make the jobs of developers easier and efficient. Rad below to get a grasp of full features. 
@@ -61,6 +62,5 @@ OTHER VERSIONS WILL BE UPDATED UPON RELEASE. FEATURES MAY BE INCONSISTENT WITH V
 ---
 
 ## INSTALLATION
-Download an installer package for your OS type and wanted version to instal the installer. After installing the installer, please open the .exe file and follow the setup. After setup, open the app for interactiions. Installer modification is discouraged. By installing or interacting with our app, or using thir repositary, or veiwing and interacting with it, you acknowledge our agreenments and policies.  
-
+PLEASE FOLLOW THE INSTRUCTIONS ON THE RELEASE NOTES AS INSTALLATION AND USAGE PROCESSES MAY VARY ACCROSS VERSIONS AND OS TYPES.
 **Thank You for installing sysveiw!**
