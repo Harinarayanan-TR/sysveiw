@@ -1,0 +1,12 @@
+V1.1.1 has been replaced by V1.1.2. Please go to the respective branch and build, or for more efficiency, go to the releases tab and dowload the version.
+V1.1.2 is also availble for linux
+The MACOS version will be introduced in the future if possible.
+V1.1.1 is thought to be free of bugs, and is a nice stable build
+however, it is only supported for windows. therefore, for any other cross platform usage, download v1.1.1
+
+
+
+
+THE ULIMATE AIM FOR THIS NOTICE IS, V1.1.1 WILL NOT BE MAINTAINED OR LOOKED UPON, OTHERWISE, CONSIDERED A DEAD VERSION. NO BUG REPORTS, ERROR RECOGNITION OR ALERTS OR THREATS OF ANY KIND WILL NOT BE ENTERTAINED. THAT IS, IT IS THE END OF SUPPORT FOR THIS VERSION. DOWNLOAD THE LATEST VERSIONS FOR THE BEST EXPERIENCE.
+
+THANK YOU
