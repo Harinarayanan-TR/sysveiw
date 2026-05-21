@@ -6,6 +6,8 @@ SysView is an advanced terminal interface for developers and tech enthusiats tha
 
 **sysveiw download web-server is now available**
 https://sysveiw.onrender.com/
+
+THE SERVER WILL TAKE UPTO 5OS TO 1 MIN IF IT HAS BEEN INACTIVE FOR 15 MINUITES. THEREFORE, USERS ARE INSTRUCTED TO WAIT FOR THE SERVER TO REINITIATE.THANKS FOR YOUR UNDERSTANDING!!
 ---
 
 ## Features
