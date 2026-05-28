@@ -1,27 +1,48 @@
-The repository is protected by a custom license binding on every user/veiwer or editor directly or indirectly involved with this. The owner
-Harinarayanan TR has created a custom license to protect his and this repositories interest through a safe and secure agreement. The following are the terms upon which this license is agreed upon.
+WELCOME TO SENTRA-OS. THIS REPOSITORY USES A CUSTOM BUILT LICENSE SOLELY APPLICABLE FOR THIS REPOSITORY. CONTINUE READING TO KNOW MORE
 
-1. This repository, any content within it or a snapshot of it cannot be used without a written consent from the owner of the repository. This includes all instituitions and individuals. Written consent is limited to formal documents, clear digital verification but is not bound to informal, unvoulantary or faked written consent.
-2. The owner has to publicaly acknowledge any transacions of license or agreements for term to be officially binding. Any violation of these terms will include strict legal ation and/or penalties found fit by the law and/or the owner of this reporitory.
-3. This license recognise the following github user with the account:"Harinarayanan-TR" as the sole owner of this repository. Any transaction of onwership must be made public within the repository and agreed upon and acknowledged by the current owner voulantarily. Any unlawful seizage of this repository will result in immediate legal action.
-4. The misuse or unlawful use of this repository is not the responsibility or liability of the owner but the sole committer who has done the act. Any such claim of misuse must be immediatly notified to legal authorities and/or the owner.
-5. All users are encouraged to share any security concerns or violation of privacy concerns to the owner immediatly within two days of the evidence or incident. Any claim that has failed to be notified within the deadline will be investigated upon but not responded to or accepted to. Please note that the owner is not compelled to investigate or acknowledge a failed claim (a claim that has not been  submitted within the deadline). The owner also reserves the right to deny any claim (due to uncertain evidence, or in any even of tampering or such) or block the user if any such need arises.
-6. The legal agreement that any claim or any such notice will be denied if the code has been tampered with or uncertainly used.
-7. All users are free to use (download and interact with) this repository unless thay plan on violaiting any of the license agreements or security policies or redistribute it.
-8. This license stringly condems any redistribution of this content without the owners notice and written agreement. Any redistribution will trigger severe legal action againt the committer and be reported to necessery instituitions.
-9. Modification of files locally is accepted as long as it is not redistrubted/heavily tapered with/updated in the cloud or any such kind of acts the owner deems unlawful.
-10. Please not that modification of files however denies the right of any claim (Security or such).
-11. The owner reserves the right to modify/rewrite/delete this security policy without acknowledgment and the new terms will be immediatly effective. Users are encouraged to raise questions about any of the olicies unless tsrictly restricted to the owner in the provided contact below.
-12. Impeachment or disregard of any of the terms/conditions or such will result in strict legal action and/or penalties.
-13. Sending unrelated or insecure messages or any restricted content or software of any kind to the contact given below is strictly restricted by this policy.
+LICENSE: CUSTOM
+DATE OF CREATION: THURSDAY, MAY 28, 2026
+LAST AMENDMENT: THURSDAY, MAY 28, 2026
 
+1. This repository is protected by this custom built license created by the repository owner. By interacting with the repository, any build objects, artifacts or modules, you explicitly agree to the terms listed in this license, as well as any other legal (policies, terms, conditions, security) or otherwise (Notices, release notes, alarms, rules).
 
-The legal license document end with the note that all users have agreed to any and all of our policies by countinuing foreword with our repository with/without reading this security policy. Users are strictly prohibited from editing this legal document. Therefore, the owner hopes of full compliance with this license and a secure and safe coding future. 
+2. This repository is or the artifacts present within it are open source, however, the definition of Open-Source changes in the following way:
+   a. Any user/institution/organisation/company may download and use the source codes listed in this repository. Permission for modifications are also given. However, any redistribution of the contents of this repository (with or without modifying) is strictly and explicitly prohibited.
+   b. Redistribution with explicit written (digital or physical, signed and addressed through the repository discussion) consent from the owner of this repository: Harinarayanan TR is allowed, unless other circumstances arise
+   c. The owner reserves the right to say "no" to a redistribution consent.
+   d. The owner reserves the source code, any intellectual property, all files, releases and packages within this repository, brand name, service , product, technological infrastructure to his name. (any property not discussed in this license, but is present in this repository, also falls under the name of the owner.
+   e. By contributing to this project, the person gives the owner the right to reuse, commercialise or delete the contribution, without argument, as part of this project, in the name of the owner.
+   d. The owner reserves the right to change the license to a fully closed model, or, remove the source code, that is, completely close the project.
 
-contact owner at: error40404.github@gmail.com
-Name: Harinarayanan TR
-                                                                                                   legal license agreement. drafted on:
-                                                                                                                             25-04-2026
-                                                                                                                             
- AMENDMANTS ONLY BY OWNER UNLESS PERMITTED EXLUSIVELY
- (and pls dont spam email)
+3. The owner does not take responsibility for any misuse or unhealthy use of this repository and any such use is strongly condemned. Tampering with the source code or engagement in activities of that kind removes any warranty or any such policies of that kind, and alerts users to tamper with the source code at their own risk.
+
+4. Support and Bug Reporting:
+   Users are encouraged to report any bugs or issues through the project's GitHub repository or by contacting the owner directly.
+   If a bug is reported within a reasonable time after discovery, the owner will acknowledge the report and make reasonable efforts to investigate and resolve the issue. Updates may be provided based on availability and circumstances.
+   No guarantee is made regarding resolution time or frequency of updates.
+   Nor is the owner or any contributor obliged to investigate and follow up on the issue.
+
+5. The owner nor any contributors takes responsibility of any use of the repo, its contents, releases or packages. Therefore, users may use at their own risk.
+
+6. All users are encouraged to share any security concerns or violation of privacy concerns to the owner immediately within two days of the evidence or incident. Any claim that has failed to be notified within the deadline will be investigated upon but not responded to or accepted to. Please note that the owner is not compelled to investigate or acknowledge a failed claim (a claim that has not been submitted within the deadline). The owner also reserves the right to deny any claim (due to uncertain evidence, or in any event of tampering or such) or block the user if any such need arises.
+
+7. This license recognize the following github user with the account:"Harinarayanan-TR" as the sole owner of this repository. Any transaction of ownership must be made public within the repository and agreed upon and acknowledged by the current owner voluntarily. Any unlawful seizure of this repository will result in immediate legal action.
+
+8. Rebranding or commercial sale of any and all products/technology/property/source-codes/all items and info within this repository will not be entertained. This repository cannot be forked, rebranded, sublicensed/relicensed and sold as a separate or competing product.
+
+9. This product is provided 'as-is' without warranty of any kind, excluding the warranty agreement mentioned above.
+
+10. The owner reserves the right for changing the license, changing or editing any term, completely revoking the license or any such actions, all with immediate or specified effect, without argument.
+
+11. Any violation of any and all terms in this and all licenses/terms/conditions/notices will result in legal penalties and consequences.
+
+12. Any redistribution, after consent only, must include original attribution to the SentraOS project.
+
+Thank you
+Harinarayanan-TR
+owner
+
+All legal documents may only be amended by the owner. Misinterpretation will not be entertained.
+
+For any info or questions, or general or specifc contact:-
+Contact: [error40404.github@gmail.com](mailto:error40404.github@gmail.com)
