@@ -1,0 +1,14 @@
+SYSVIEW TERMINAL v1.1.2
+
+Real system interface.
+All outputs are real-time from OS.
+
+Commands:
+- sys.info
+- sys.usage
+- sys.processes
+- fs.list
+- net.ping
+- app.update
+
+Use 'help' to view all.

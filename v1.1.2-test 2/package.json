@@ -1,0 +1,22 @@
+{
+  "name": "sysveiw",
+  "version": "1.1.2",
+  "description": "Sysveiw CLI - Windows-only developer utility with diagnostics, OTA updates, and native command routing.",
+  "main": "bin/cli.js",
+  "bin": {
+    "sysveiw": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "install": "node utils/installer.js",
+    "build-native": "node-gyp build"
+  },
+  "author": "Harinarayanan-TR",
+  "license": "Custom",
+  "dependencies": {
+    "inquirer": "^9.2.0",
+    "node-fetch": "^3.3.2",
+    "chalk": "^5.3.0",
+    "ora": "^7.0.0"
+  }
+}
