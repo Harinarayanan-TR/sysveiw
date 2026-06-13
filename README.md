@@ -7,7 +7,6 @@ SysView is an advanced terminal interface for developers and tech enthusiats tha
 **sysveiw download web-server is now available**
 https://sysveiw.onrender.com/
 
-THE SERVER WILL TAKE UPTO 5OS TO 1 MIN IF IT HAS BEEN INACTIVE FOR 15 MINUITES. THEREFORE, USERS ARE INSTRUCTED TO WAIT FOR THE SERVER TO REINITIATE.THANKS FOR YOUR UNDERSTANDING!!
 ---
 
 ## Features
@@ -42,7 +41,7 @@ THE SERVER WILL TAKE UPTO 5OS TO 1 MIN IF IT HAS BEEN INACTIVE FOR 15 MINUITES. 
 **V1.1.'x' VERSION START**  
 ----------------------------------------------------------------------------------------------  
 
-*(please note that version v1.1.'x' only supports windows ecosystems. cross platform has not been developed yet)*  
+
 
 ### 1. LEGACY VERSION-v1.1.1
 - Basic command engine and naitive command routing  
@@ -69,5 +68,4 @@ OTHER VERSIONS WILL BE UPDATED UPON RELEASE. FEATURES MAY BE INCONSISTENT WITH V
 ## INSTALLATION
 PLEASE FOLLOW THE INSTRUCTIONS ON THE RELEASE NOTES AS INSTALLATION AND USAGE PROCESSES MAY VARY ACCROSS VERSIONS AND OS TYPES.
 **Thank You for installing sysveiw!**
-
-**CLOUD BASED SYVEIW V1.1.3 COMING SOON**
+**V1.1.3 COMING SOON**
