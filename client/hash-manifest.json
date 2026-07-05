@@ -1,0 +1,8 @@
+[
+  { "file": "boot.js", "sha256": "410df66c01ceef91406105eb09f199bfaee8ce83ea35f5007f1c45c427cead64" },
+  { "file": "commands.js", "sha256": "546875b7b63dbe21d4dd00d33097ad3d9d207afc1e51d290ca05b69ce3e371e1" },
+  { "file": "hashcheck.js", "sha256": "fcb15f6f46aba35836d06ea2fa16200db0fe8b6455f7f771d6b9f957a16ee36d" },
+  { "file": "main.js", "sha256": "f72bf2cdef410d6d6d9d17d69e918949cef35290083ed899ac7b675ac0ff9566" },
+  { "file": "sandbox.js", "sha256": "886e776b4b2507d28b4404a716ee07a6cd131705bc4444eeef2249f419ba8338" },
+  { "file": "cloud/client.js", "sha256": "033df16449d9e2db279f917650abf58fe1f3763577f2d7cada36c6527c93ec6a" }
+]

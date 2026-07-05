@@ -1,0 +1,33 @@
+# Dependencies
+client/node_modules/
+cloud/__pycache__/
+cloud/*.pyc
+cloud/*.pyo
+
+# Build output
+client/dist/
+client/squashfs-root/
+
+# Environment
+.env
+
+# Logs and reports
+*.log
+client/bug_reports.bin
+client/bug_reports.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Runtime
+.pid
+*.pid
+*.seed

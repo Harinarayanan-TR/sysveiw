@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  sysveiw-cloud:
+    build: .
+    container_name: sysveiw-cloud
+    ports:
+      - "3000:3000"
+    environment:
+      - SYSVEIW_API_KEY=${SYSVEIW_API_KEY:-sv-c1-3a8f2d9e}
+      - PORT=3000
+    restart: unless-stopped
+    # For host system info, run with --privileged or mount /proc:/proc
+    # Remove the lines below if you don't need full system info
+    privileged: true
+    volumes:
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /:/host/root:ro

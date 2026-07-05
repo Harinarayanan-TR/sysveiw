@@ -1,0 +1,71 @@
+{
+  "name": "sysveiw",
+  "version": "1.1.3",
+  "description": "Sysveiw Cloud Client Terminal Utility",
+  "main": "main.js",
+  "author": "Harinarayanan-TR <error40404.github@gmail.com>",
+  "license": "Custom",
+  "scripts": {
+    "start": "ELECTRON_DISABLE_SANDBOX=1 electron .",
+    "start:appimage": "ELECTRON_DISABLE_SANDBOX=1 ./dist/'Sysveiw v1.1.3-1.1.3.AppImage'",
+    "build": "electron-builder --linux",
+    "dist": "electron-builder --linux --x64",
+    "pack": "electron-builder --dir --linux",
+    "test:hash": "node tests/hashcheck.test.js"
+  },
+  "build": {
+    "appId": "com.sysveiw.client",
+    "productName": "Sysveiw v1.1.3",
+    "directories": {
+      "output": "dist",
+      "buildResources": "."
+    },
+    "files": [
+      "**/*.js",
+      "**/*.json",
+      "**/*.html",
+      "**/*.png",
+      "**/*.txt",
+      "!tests/**/*",
+      "!local/**/*",
+      "!node_modules/.cache"
+    ],
+    "extraResources": [
+      {
+        "from": "./",
+        "to": "./",
+        "filter": [
+          "license.txt"
+        ]
+      }
+    ],
+    "linux": {
+      "icon": "icon.png",
+      "compression": "maximum",
+      "executableArgs": ["--no-sandbox"],
+      "target": [
+        {
+          "target": "AppImage",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "category": "System;Development;Utility;",
+      "executableName": "sysveiw",
+      "desktop": {
+        "Name": "Sysveiw",
+        "Comment": "Cloud client terminal utility",
+        "Categories": "System;Development;Utility;",
+        "Terminal": false
+      }
+    }
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.13.3"
+  }
+}
